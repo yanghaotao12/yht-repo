@@ -1,0 +1,20 @@
+# BOM (expanded) - features/copilot/plans/esp32-s3-env-station/BOM_expanded.csv
+
+Item,Qty,Part/Model,Description,Footprint,Manufacturer,Link,EstPrice(CNY)
+ESP32-S3-MODULE,1,ESP32-S3-WROOM-1,ESP32-S3 module 4MB FLASH,Module,Espressif,https://www.espressif.com,60
+BME280,1,BME280,Temp/Humidity/Pressure sensor,I2C,Bosch,https://www.bosch-sensortec.com,25
+BH1750,1,BH1750,Ambient light sensor,I2C,Rohm,https://www.rohm.com,8
+SGP30,1,SGP30,TVOC/eCO2 sensor,I2C,Sensirion,https://www.sensirion.com,45
+PMS7003,1,PMS7003,Optical PM2.5 sensor,UART,Plantower,https://www.plantower.com,120
+SoilCapSensor,1,DFRobot-Capacitive-Soil,Capacitive soil moisture,Analog,DFRobot,https://www.dfrobot.com,15
+DS18B20,1,DS18B20,1-Wire temperature probe,TO-92,Maxim,https://www.maximintegrated.com,6
+Relay-2ch,1,SRD-05VDC-SL-C,2-channel relay module (5V coil),ThroughHole,Songle,https://www.songle.com,30
+MOSFET-N,2,IRLZ44N,N-channel MOSFET,TO-220,Infineon,https://www.infineon.com,6
+AP2112-3.3,1,AP2112,3.3V LDO regulator,SOT-23-5,Diodes Inc,https://www.diodes.com,3
+USB-C,1,USB-C Receptacle,USB-C connector,Type-C,Various,https://www.mouser.com,8
+JST-PH-2,2,JST-PH,Connector JST PH2.0,JST,https://www.jst-mfg.com,1
+Terminal-2pos,1,2-Pin Terminal Block,Wire terminal,ThroughHole,Various,https://www.mouser.com,2
+LED-Status,2,LED-0805,Status LED,0805,Various,https://www.digikey.com,0.5
+Buzzer,1,Active Buzzer,Audio alert,ThroughHole,Various,https://www.aliexpress.com,3
+Resistors-Cs,*,Various,Passive R/C,0805,Various,Local,5
+PCB-2Layer,1,PCB-2Layer,PCB 2 layer 1.6mm,FR4,,https://jlcpcb.com,60
