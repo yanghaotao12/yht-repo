@@ -1,0 +1,16 @@
+{
+  "dashboard": "env_station_dashboard",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Temperature",
+      "targets": [ { "refId": "A", "query": "from(bucket:\"env_bucket\") |> range(start: -24h) |> filter(fn: (r) => r._measurement == \"env\" and r._field == \"temp\")" } ]
+    },
+    {
+      "type": "timeseries",
+      "title": "PM2.5",
+      "targets": [ { "refId": "A", "query": "from(bucket:\"env_bucket\") |> range(start: -24h) |> filter(fn: (r) => r._measurement == \"env\" and r._field == \"pm2_5\")" } ]
+    }
+  ],
+  "templating": { "list": [] }
+}

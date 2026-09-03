@@ -1,0 +1,13 @@
+# KiCad schematic placeholder (detailed text summary)
+
+Schematic details (to be converted to .sch in KiCad):
+- ESP32-S3-WROOM module footprint with castellated pads.
+- Power: USB-C -> input protection (fuse + TVS) -> 3.3V LDO (AP2112) -> 3.3V net
+- I2C bus (SDA GPIO21, SCL GPIO22) with 2.2k pull-ups -> BME280, SGP30, BH1750
+- UART for PMS7003 -> TX/RX level shifter -> GPIO16/17
+- ADC soil sensor -> ADC1_CH0
+- DS18B20 1-wire -> GPIO4 with 4.7k pull-up
+- 2x Relay control via NPN drivers (GPIO25, GPIO26)
+- Status LED (GPIO2) and User button (BOOT/EN wiring)
+
+I'll generate real KiCad .sch/.kicad_pcb files and Gerbers in the next commit.

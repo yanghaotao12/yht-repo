@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "type": "tab",
+    "label": "Env Station",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "mqtt_in",
+    "type": "mqtt in",
+    "z": "1",
+    "name": "Telemetry In",
+    "topic": "device/+/telemetry",
+    "qos": "0",
+    "broker": "mqtt-broker",
+    "x": 140,
+    "y": 120,
+    "wires": [["debug_out","influx_write"]]
+  },
+  {
+    "id": "debug_out",
+    "type": "debug",
+    "z": "1",
+    "name": "debug",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 360,
+    "y": 100,
+    "wires": []
+  },
+  {
+    "id": "influx_write",
+    "type": "function",
+    "z": "1",
+    "name": "to influx format",
+    "func": "// Convert payload to InfluxDB line protocol or JSON for influxdb node\nmsg.payload = msg.payload;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 360,
+    "y": 140,
+    "wires": [["influxdb_out"]]
+  },
+  {
+    "id": "influxdb_out",
+    "type": "influxdb out",
+    "z": "1",
+    "influxdb": "influxdb_server",
+    "name": "InfluxDB",
+    "measurement": "env",
+    "x": 560,
+    "y": 140,
+    "wires": []
+  }
+]
