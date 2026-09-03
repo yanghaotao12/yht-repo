@@ -1,0 +1,26 @@
+(kicad_sch (version 20211014) (generator eeschema)
+  (paper "A4")
+  (symbols
+    ; Symbols referenced in the schematic. Replace with actual KiCad symbols when editing.
+  )
+  (components
+    (comp (ref U1) (value ESP32-S3-WROOM-1) (footprint Module:ESP32-S3-WROOM-1) )
+    (comp (ref U2) (value BME280) (footprint Sensor:BME280) )
+    (comp (ref U3) (value SGP30) (footprint Sensor:SGP30) )
+    (comp (ref U4) (value PMS7003) (footprint Sensor:PMS7003) )
+    (comp (ref U5) (value DS18B20) (footprint Sensor:DS18B20) )
+    (comp (ref J1) (value USB-C) (footprint Connector:USB_C_Receptacle) )
+    (comp (ref REL1) (value RELAY1) (footprint Relay:Relay_1) )
+    (comp (ref REL2) (value RELAY2) (footprint Relay:Relay_1) )
+  )
+  (nets
+    (net (code 1) (name 3V3))
+    (net (code 2) (name GND))
+    (net (code 3) (name SDA))
+    (net (code 4) (name SCL))
+    (net (code 5) (name UART_TX))
+    (net (code 6) (name UART_RX))
+    (net (code 7) (name ADC_SOIL))
+    (net (code 8) (name ONEWIRE))
+  )
+)
