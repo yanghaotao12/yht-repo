@@ -1,0 +1,8 @@
+designator,footprint,x_mm,y_mm,rotation,side
+U1,Module:ESP32-S3-WROOM-1,30.00,30.00,0,Top
+J1,Connector:USB_C_Receptacle,10.00,30.00,0,Top
+U2,Sensor:BME280,50.00,30.00,0,Top
+REL1,Relay:Relay_1,70.00,15.00,0,Top
+REL2,Relay:Relay_1,70.00,45.00,0,Top
+C1,Capacitor_0805,28.00,32.00,0,Top
+R1,Resistor_0805,26.00,32.00,0,Top

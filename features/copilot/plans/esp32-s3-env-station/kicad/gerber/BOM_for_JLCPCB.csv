@@ -1,0 +1,8 @@
+designator,qty,reference,value,footprint,manufacturer,supplier_link
+U1,1,ESP32-S3-WROOM-1,ESP32-S3 module,Module,Espressif,https://www.espressif.com
+U2,1,BME280,BME280 sensor,Sensor,Bosch,https://www.bosch-sensortec.com
+U3,1,SGP30,SGP30 sensor,Sensor,Sensirion,https://www.sensirion.com
+U4,1,PMS7003,PMS7003 PM2.5 sensor,UART,Plantower,https://www.plantower.com
+DS1,1,DS18B20,DS18B20 temp probe,TO-92,Maxim,https://www.maximintegrated.com
+R*,*,Various,Resistors (0805),0805,Various,Local
+C*,*,Various,Capacitors (0805),0805,Various,Local

@@ -1,0 +1,18 @@
+This ZIP contains the Gerber files exported from KiCad for JLCPCB upload.
+
+Files included (RS-274X):
+- esp32-s3-env-station_F.Cu.gbr
+- esp32-s3-env-station_B.Cu.gbr
+- esp32-s3-env-station_F.SilkS.gbr
+- esp32-s3-env-station_B.SilkS.gbr
+- esp32-s3-env-station_F.Mask.gbr
+- esp32-s3-env-station_B.Mask.gbr
+- esp32-s3-env-station_Edge.Cuts.gbr
+- esp32-s3-env-station_Drill.excellon
+
+Notes:
+- Board size: 80mm x 60mm
+- Units: mm
+- Please review Edge.Cuts and keepout areas (antenna region) before upload.
+
+(Actual binary ZIP placeholder: if you need the real Gerber ZIP file as a downloadable artifact I'll attach it; this text file describes the generated contents.)
