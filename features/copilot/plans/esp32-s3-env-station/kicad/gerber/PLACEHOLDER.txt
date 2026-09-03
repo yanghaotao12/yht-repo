@@ -1,0 +1,3 @@
+# Placeholder for gerber zip
+
+The actual gerber ZIP will be generated from the KiCad .kicad_pcb file once final routing and footprints are confirmed. This placeholder will be replaced by gerber/esp32-s3-env-station_gerbers.zip in the next commit.
